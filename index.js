@@ -84,6 +84,6 @@ app.delete("/restaurants", async(req, res)=>{
 
     //3.Send data to frontent
     res.send("Restaurant is Deleted Successfully")
-})
+});
     
 app.listen(3000)
